@@ -1,4 +1,4 @@
-import LoginForm from "@/components/auth/LoginForm";
+import LoginForm from "@/components/Auth/LoginForm";
 import {
   Card,
   CardContent,
@@ -22,8 +22,7 @@ const page = () => {
           <CardTitle className="text-center text-2xl">Login</CardTitle>
         </CardHeader>
         <CardContent>
-          {" "}
-          <LoginForm />{" "}
+          <LoginForm />
         </CardContent>
         <CardFooter className="justify-center gap-1">
           Do not have an account?
